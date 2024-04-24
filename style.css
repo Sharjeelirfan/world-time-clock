@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-image:url(./bg.png);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#subDiv{
+    text-align: center;
+}
+#subDiv h1{
+    color: white;
+    margin-top: 30px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#city-input{
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 35px;
+    font-size: 17px;
+    box-shadow: 2px 4px 19px 3px rgb(88, 87, 87);
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#search-btn{
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 30px;
+    background-color:  white;
+    padding: 5px 20px 5px 20px ;
+}
+#search-btn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+#search-btn:active{
+    border: none;
+}
+#time{
+    font-size: 70px;
+    color: #000000;
+    font-weight:500 ;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 60px;
+    font-family: orbitron , sans-serif;
+}
+#date{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: orbitron;
+}
+#loc{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    font-family: orbitron;
+
+
+}
+
+
+
+
+
+
+@media (min-width:426px) and (max-width:769px){
+
+    #main{
+        height: 100vh;
+        width: 100%;
+    }
+
+    #sub-div h1{
+        font-size: 30px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    #search-btn{
+        width: 80px;
+        margin-top: 20px;
+        font-size: 14px;
+        /* background-color: #EEDCAE; */
+        padding: 5px 20px 5px 20px ;
+    } 
+    #time{
+        margin-top: 30px;
+        font-size: 50px;
+
+    }
+    #date{
+        color: #000000;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: orbitron;
+    }
+    #loc{
+        font-size: 30px;
+        font-weight: 700;
+        color: #000000;
+        font-family: orbitron;
+    }    
+    
+    
+}
+
+
+
+
+@media (min-width:375px) and (max-width:426px){
+    #main{
+        height: 115vh;
+        width: 100%;
+    }
+
+    #subDiv h1{
+        font-size: 40px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 17px;
+        height: 30px;
+    }
+
+    #search-btn{
+        width: 80px;
+        margin-top: 15px;
+        font-size: 12px;
+        padding: 5px 20px 5px 20px ;
+    }
+    #time{
+        margin-top: 30px;
+        font-size: 40px;
+        color: white;
+
+    }
+    #date{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: orbitron;
+    }
+    #loc{
+        font-size: 28px;
+        font-weight: 500;
+        color: #ffffff;
+        font-family: orbitron;
+    }    
+}
+
+@media (min-width:300px) and (max-width:374px){
+    #main{
+        height: 107vh;
+        width: 100%;
+    }
+
+    #subDiv h1{
+        font-size: 30px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 17px;
+        height: 25px;
+    }
+
+    #search-btn{
+        width: 70px;
+        margin-top: 15px;
+        font-size: 10px;
+        padding: 5px 18px 5px 18px ;
+    }
+    
+    #time{
+        margin-top: 30px;
+        font-size: 40px;
+        color: white;
+
+    }
+    #date{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: orbitron;
+    }
+    #loc{
+        font-size: 27px;
+        font-weight: 500;
+        color: #ffffff;
+        font-family: orbitron;
+    
+}
+}
