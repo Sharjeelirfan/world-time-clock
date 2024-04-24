@@ -25,8 +25,7 @@ button.addEventListener('click' ,async () => {
         let crnt12 = crntTime.slice(11,14)
         let crntMins = crntTime.slice(15,17)
         let crntDate = crntTime.slice(0,11)
-        console.log(result.timezone_location)
-        console.log(result)
+        
 
         if( crnt12 > 12){
             let dofromat12 = (crnt12 - 12 ) 
