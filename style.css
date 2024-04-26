@@ -42,35 +42,52 @@
     border-radius: 30px;
     background-color:  white;
     padding: 5px 20px 5px 20px ;
+    margin-bottom:60px ;
+
 }
 #search-btn:hover{
     cursor: pointer;
     border: 2px solid black;
+
 }
 #search-btn:active{
     border: none;
 }
+#timeDiv{
+    width: 500px;
+    margin-left: auto;
+    border: 3px solid #37B9EA;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    background-color: #366281;
+    text-decoration: underline;
+    /* position: relative; */
+}
+
 #time{
     font-size: 70px;
-    color: #000000;
+    /* color: #ffffff; */
     font-weight:500 ;
     margin-left:auto ;
+    opacity: 1;
     margin-right:auto ;
-    margin-top: 60px;
+    /* margin   -top: 60px; */
     font-family: orbitron , sans-serif;
 }
 #date{
-    color: #000000;
+    /* color: #ffffff; */
     font-size: 30px;
     font-weight: 800;
-    font-family: orbitron;
+    opacity: 1;
+    font-family: orbitron , sans-serif;
 }
 #loc{
     font-size: 30px;
     font-weight: 700;
-    color: #000000;
-    font-family: orbitron;
-
+    opacity: 1;
+    /* color: #ffffff; */
+    font-family: orbitron , sans-serif;
 
 }
 
@@ -103,13 +120,17 @@
         /* background-color: #EEDCAE; */
         padding: 5px 20px 5px 20px ;
     } 
+    #timeDiv{
+        width: 400px;
+    
+    }
     #time{
         margin-top: 30px;
         font-size: 50px;
 
     }
     #date{
-        color: #000000;
+        /* color: #000000; */
         font-size: 25px;
         font-weight: 800;
         font-family: orbitron;
@@ -117,7 +138,7 @@
     #loc{
         font-size: 30px;
         font-weight: 700;
-        color: #000000;
+        /* color: #000000; */
         font-family: orbitron;
     }    
     
@@ -150,6 +171,10 @@
         font-size: 12px;
         padding: 5px 20px 5px 20px ;
     }
+    #timeDiv{
+        width: 340px;
+    
+    }
     #time{
         margin-top: 30px;
         font-size: 40px;
@@ -170,7 +195,7 @@
     }    
 }
 
-@media (min-width:300px) and (max-width:374px){
+@media (max-width:374px){
     #main{
         height: 107vh;
         width: 100%;
@@ -192,6 +217,10 @@
         margin-top: 15px;
         font-size: 10px;
         padding: 5px 18px 5px 18px ;
+    }
+    #timeDiv{
+        width: 280px;
+    
     }
     
     #time{

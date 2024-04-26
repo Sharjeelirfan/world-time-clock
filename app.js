@@ -25,7 +25,15 @@ button.addEventListener('click' ,async () => {
         let crnt12 = crntTime.slice(11,14)
         let crntMins = crntTime.slice(15,17)
         let crntDate = crntTime.slice(0,11)
-        
+        // let crntSec = crntTime.slice(18)
+        // console.log(crntSec)
+
+
+        // setInterval(() => {
+        //     const now = new Date();
+        //     const seconds = now.getSeconds();
+        //     time.innerHTML = time.innerHTML.split(':').slice(0, 2).join(':') + `:${seconds}`;
+        // }, 1000);
 
         if( crnt12 > 12){
             let dofromat12 = (crnt12 - 12 ) 
@@ -39,6 +47,10 @@ button.addEventListener('click' ,async () => {
 
         locate.innerHTML = ` ${result.requested_location} <br/> ${result.timezone_name}` 
 
+
+       
+
+        
     }else{
         alert('Please Enter A Country Name!')
     }
